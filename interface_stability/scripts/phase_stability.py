@@ -1,5 +1,5 @@
 import argparse
-from pymatgen import Composition
+from pymatgen.core.composition import Composition
 from interface_stability.singlephase import VirtualEntry
 
 
