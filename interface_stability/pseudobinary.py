@@ -3,7 +3,7 @@
 # Distributed under the terms of the MIT License.
 
 import pandas
-from pymatgen import Composition, Element
+from pymatgen.core.composition import Composition, Element
 from pymatgen.analysis.phase_diagram import PhaseDiagram, GrandPotentialPhaseDiagram, GrandPotPDEntry
 from pymatgen.analysis.reaction_calculator import ComputedReaction, ReactionError
 from interface_stability.singlephase import VirtualEntry
