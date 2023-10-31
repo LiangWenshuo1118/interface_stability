@@ -12,7 +12,8 @@ import pandas
 import matplotlib.pyplot as plt
 from matplotlib import rc
 from monty.json import MontyDecoder, MontyEncoder
-from pymatgen import Composition, SETTINGS, Element, MPRester
+from pymatgen.ext.matproj import MPRester,SETTINGS
+from pymatgen.core.composition import Composition, Element
 from pymatgen.analysis.phase_diagram import PhaseDiagram, GrandPotentialPhaseDiagram
 from pymatgen.analysis.reaction_calculator import ComputedReaction
 from pymatgen.entries.computed_entries import ComputedEntry
