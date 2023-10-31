@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import argparse
-from pymatgen import Composition
+from pymatgen.core.composition import Composition
 from interface_stability.pseudobinary import PseudoBinary
 from interface_stability.singlephase import VirtualEntry
 
